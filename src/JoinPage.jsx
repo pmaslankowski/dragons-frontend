@@ -22,9 +22,9 @@ const Header = () => (
 
   
 const Card = ({additionalClass, children}) => {
-    let baseClasses = "text-primary border border-black aspect-[2/3] \
-        text-center flex items-center justify-center text-5xl \
-        rounded-lg shadow-xl";
+    let baseClasses = `text-primary border border-black aspect-[2/3]
+        text-center flex items-center justify-center text-5xl
+        rounded-lg shadow-xl`;
 
     return (
         <div className={baseClasses + " " + additionalClass}>
