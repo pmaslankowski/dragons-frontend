@@ -8,7 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: prod
+    environment: 
+      name: prod
+      url: https://dragons-cards.herokuapp.com
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
